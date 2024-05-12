@@ -37,8 +37,23 @@
     </nav>
 
     <main class="container">
-        <h1>email</h1>
+        <form action="mailto:vaibhavac03@gmail.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name"><br>
+            E-mail:<br>
+            <input type="text" name="mail"><br>
+            Comment:<br>
+            <input type="text" name="comment" size="50"><br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </form>
     </main>
+
+    <footer class="footer bg-dark py-3 mt-auto fixed-bottom">
+        <div class="container">
+            <span class="text-white-50">&copy; YelpCamp 2020</span>
+        </div>
+    </footer>
 
     <script src="../../bootstrap-5.3.3-dist/js/bootstrap.js"></script>
 </body>
