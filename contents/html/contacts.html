@@ -9,8 +9,7 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-md bg-body-tertiary">
+    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="../../index.html"> Vaibhav Chodankar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -37,21 +36,55 @@
     </nav>
 
     <main class="container">
-        <form action="mailto:vaibhavac03@gmail.com" method="post" enctype="text/plain">
-            Name:<br>
-            <input type="text" name="name"><br>
-            E-mail:<br>
-            <input type="text" name="mail"><br>
-            Comment:<br>
-            <input type="text" name="comment" size="50"><br><br>
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
-        </form>
+        <div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4><img src="../assests/mail.png" width="50px">Get in touch.</h4>
+                        <form action="mailto:vaibhavac03@gmail.com" method="post" enctype="text/plain">
+                            <input type="text" name="name" placeholder="name"><br>
+                            <input type="text" name="mail" placeholder="email"><br>
+                            <textarea name="message" cols="30" rows="5" placeholder="message"></textarea><br><br>
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Reset">
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Alternatively</h4>
+                        <a href="https://github.com/Vaibhav-Chodankar"><img src="../../contents/assests/Github.png"
+                                width="30px" alt="Github">Vaibhav-Chodankar</a> <br>
+                        <a href="https://www.linkedin.com/in/vaibhav-chodankar-56142a287/"><img
+                                src="../../contents/assests/Linked in.png" width="30px"
+                                alt="linked in">vaibhav-chodankar-56142a287</a> <br>
+                        <a href="https://www.instagram.com/_v_a_i_b_h_a_v_0_3_/"><img src="../assests/instagram.png"
+                                width="30px" alt="Instagram">_v_a_i_b_h_a_v_0_3_</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </main>
 
     <footer class="footer bg-dark py-3 mt-auto fixed-bottom">
         <div class="container">
-            <span class="text-white-50">&copy; YelpCamp 2020</span>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <a href="https://github.com/Vaibhav-Chodankar"><img src="../../contents/assests/Github.png"
+                                width="30px" alt="Github"></a>
+                        <a href="https://www.linkedin.com/in/vaibhav-chodankar-56142a287/"><img
+                                src="../../contents/assests/Linked in.png" width="30px" alt="linked in"></a>
+                        <a href="./contents/assests/Resume.pdf"><img src="../../contents/assests/resume.png"
+                                width="30px" alt="resume"></a>
+                        <a href="https://www.instagram.com/_v_a_i_b_h_a_v_0_3_/"><img src="../assests/instagram.png"
+                                width="30px" alt="Instagram"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="text-white-50">&copy; Copyright 2024 Vaibhav Chodankar</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 

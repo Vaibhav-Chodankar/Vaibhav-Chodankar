@@ -1,0 +1,53 @@
+body {
+    background-image: url("./contents/assests/background.jpg");
+}
+
+.my-photo {
+    border: 2px solid black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.name-title {
+    color: rgb(205, 205, 205);
+    font-family: cursive;
+    font-size: 2.5rem;
+}
+
+.about-title {
+    color: rgb(205, 205, 205);
+}
+
+.resume-btn {
+    color: rgb(205, 205, 205);
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.resume-btn::before {
+    margin-left: auto;
+}
+
+.resume-btn::after,
+button::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+}
+
+.resume-btn:hover::after,
+button:hover::before {
+    width: 100%;
+}
+
+.icon:hover {
+    width: 37px;
+    transition: 0.4s;
+}

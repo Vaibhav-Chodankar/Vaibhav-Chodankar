@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
     <title>Vaibhav Chodankar - Software Developer</title>
 </head>
 
-<body>
+<body class="text-white-50">
 
-    <nav class="navbar navbar-expand-md bg-body-tertiary">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"> Vaibhav Chodankar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -40,17 +41,20 @@
         <div>
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-12">
-                        <h1>I'm Vaibhav.</h1>
+                    <div class="col-12 my-5">
+                        <b>
+                            <h1 class="name-title">I'm Vaibhav Chodankar.</h1>
+                        </b>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md">
-                        <img src="./contents/assests/photo.jpg" width="400px" alt="My Photo">
+                        <img src="./contents/assests/photo.jpg" class="my-photo" width="400px" alt="My Photo">
                     </div>
                     <div class="col-md">
-                        <h3>About Me</h3><br>
-                        <p>As a Software Developer, I'm deeply passionate about crafting cross-platform responsive
+                        <h3 class="display-6 about-title">About Me</h3><br>
+                        <p class="display-8 my-2"> As a Software Developer, I'm deeply passionate about crafting
+                            cross-platform responsive
                             full-stack applications. My journey began with a solid foundation in computer science, with
                             my last year project: an IoT-based "Water Level Monitoring System." <br><br>
 
@@ -63,21 +67,30 @@
 
                             I'm eager to connect, collaborate, and create meaningful experiences. Let's embark on this
                             journey together!
-                        </p>
+                        </p> <br>
+                        <a href="./contents/assests/Resume.pdf"><button class="resume-btn">My Resume</button></a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <footer class="footer bg-dark py-3 mt-auto fixed-bottom">
+    <footer class="footer bg-dark py-3 mt-5">
         <div class="container">
             <div class="container text-center">
-                <div class="row">
-                    <div class="col-6">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <a href="https://github.com/Vaibhav-Chodankar"><img src="./contents/assests/Github.png"
+                                class="icon" width="30px" alt="Github"></a>
+                        <a href="https://www.linkedin.com/in/vaibhav-chodankar-56142a287/"><img class="icon"
+                                src="./contents/assests/Linked in.png" width="30px" alt="linked in"></a>
+                        <a href="./contents/assests/Resume.pdf"><img src="./contents/assests/resume.png" class="icon"
+                                width="30px" alt="resume"></a>
+                        <a href="https://www.instagram.com/_v_a_i_b_h_a_v_0_3_/"><img class="icon"
+                                src="./contents/assests/instagram.png" width="30px" alt="Instagram"></a>
                     </div>
-                    <div class="col-6">
-                        <a href="">linkedIn</a>
+                    <div class="col-md-6">
+                        <span class="text-white-50">&copy; Copyright 2024 Vaibhav Chodankar</span>
                     </div>
                 </div>
             </div>
