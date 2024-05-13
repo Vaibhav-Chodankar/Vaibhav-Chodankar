@@ -1,0 +1,48 @@
+input {
+    width: 100%;
+    background-color: #eee;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+input:focus {
+    outline-color: rgb(199, 0, 0);
+}
+
+textarea {
+    width: 100%;
+    background-color: #eee;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+textarea:focus {
+    outline-color: rgb(199, 0, 0);
+}
+
+.btn-send:hover {
+    border: 2px solid rgb(199, 0, 0);
+    color: rgb(199, 0, 0);
+}
+
+.contact-title {
+    font-size: 30px;
+}
+
+.contact-links {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(57, 57, 57);
+}
+
+.contact-links:hover {
+    color: rgb(199, 0, 0);
+}

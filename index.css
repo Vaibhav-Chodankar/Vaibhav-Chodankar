@@ -1,25 +1,23 @@
-body {
-    background-image: url("./contents/assests/background.jpg");
-}
-
 .my-photo {
     border: 2px solid black;
+    border-radius: 10%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 }
 
 .name-title {
-    color: rgb(205, 205, 205);
+    color: black;
     font-family: cursive;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
+    font-weight: 900;
 }
 
 .about-title {
-    color: rgb(205, 205, 205);
+    color: rgb(199, 0, 0);
 }
 
 .resume-btn {
-    color: rgb(205, 205, 205);
+    color: rgb(199, 0, 0);
     text-decoration: none;
     font-size: 25px;
     border: none;
@@ -47,7 +45,51 @@ button:hover::before {
     width: 100%;
 }
 
+.icon {
+    border-radius: 40%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.nav-link:hover {
+    color: aliceblue;
+}
+
 .icon:hover {
-    width: 37px;
+    /* width: 37px; */
     transition: 0.4s;
+    border: 2px solid black;
+    border-radius: 50%;
+    color: #111;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 100px rgb(255, 255, 255);
+}
+
+.main-content {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 900px) {
+    .name-title {
+        font-size: 3.75rem;
+    }
+
+    .my-photo {
+        width: 350px;
+    }
+
+    .Copyright {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .name-title {
+        font-size: 2.5rem;
+    }
+
+    .my-photo {
+        width: 300px;
+    }
 }
