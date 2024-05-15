@@ -1,0 +1,16 @@
+h5 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+h2 {
+    font-family: cursive;
+    font-weight: 900;
+}
+
+@media screen and (min-width: 768px) {
+    hr {
+        display: none;
+    }
+}

@@ -45,6 +45,10 @@ button:hover::before {
     width: 100%;
 }
 
+.home-icon {
+    filter: invert(100%);
+}
+
 .icon {
     border-radius: 40%;
     margin-right: 10px;

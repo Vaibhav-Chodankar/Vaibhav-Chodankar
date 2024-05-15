@@ -46,3 +46,7 @@ textarea:focus {
 .contact-links:hover {
     color: rgb(199, 0, 0);
 }
+
+h4 {
+    font-family: cursive;
+}
