@@ -70,12 +70,16 @@
                         <h4 class="display-6">Coursework and Result</h4>
                         <h5>CGPA: 8.75</h5>
                         <div class="py-2 text-start">
-                            <div class="scroll-container">
-                                <img src="../assests/semester/sem 5.jpg">
-                                <img src="../assests/semester/sem 4.jpg">
-                                <img src="../assests/semester/sem 3.jpg">
-                                <img src="../assests/semester/sem 2.jpg">
-                                <img src="../assests/semester/sem 1.jpg">
+                            <div class="pt-3 position-relative">
+                                <div class="scroll-container" id="scroll-container">
+                                    <img id="img-1" src="../assests/semester/sem 5.jpg">
+                                    <img id="img-2" src="../assests/semester/sem 4.jpg">
+                                    <img id="img-3" src="../assests/semester/sem 3.jpg">
+                                    <img id="img-4" src="../assests/semester/sem 2.jpg">
+                                    <img id="img-5" src="../assests/semester/sem 1.jpg">
+                                </div>
+                                <a class="prev" onclick="scrollHorizontally(-200,'scroll-container')">&#10094;</a>
+                                <a class="next" onclick="scrollHorizontally(200,'scroll-container')">&#10095;</a>
                             </div>
                         </div>
                         <hr class="border border-danger border-1 opacity-50">
@@ -107,6 +111,7 @@
         </div>
     </footer>
     <script src="../../bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="../../index.js"></script>
 </body>
 
 </html>

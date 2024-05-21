@@ -45,12 +45,17 @@
             <div class="container text-center">
                 <div class="row my-3">
                     <h1 class="display-3 my-3">Cars Showroom</h1>
-                    <div class="col-lg-6 scroll-container pt-3">
-                        <img class="" width="100%" src="../assests/projects doc/Showroom/cars.png">
-                        <img class="" width="100%" src="../assests/projects doc/Showroom/home.jpg">
-                        <img class="" width="100%" src="../assests/projects doc/Showroom/add.png">
-                        <img class="" width="100%" src="../assests/projects doc/Showroom/update.png">
+                    <div class="col-lg-6 pt-3 position-relative">
+                        <div class="scroll-container" id="scroll-container-1">
+                            <img id="img-1" width="100%" src="../assests/projects doc/Showroom/cars.png">
+                            <img id="img-2" width="100%" src="../assests/projects doc/Showroom/home.jpg">
+                            <img id="img-3" width="100%" src="../assests/projects doc/Showroom/add.png">
+                            <img id="img-4" width="100%" src="../assests/projects doc/Showroom/update.png">
+                        </div>
+                        <a class="prev" onclick="scrollHorizontally(-200,'scroll-container-1')">&#10094;</a>
+                        <a class="next" onclick="scrollHorizontally(200,'scroll-container-1')">&#10095;</a>
                     </div>
+
                     <div class="col-lg-6 text-start px-4 pt-3">
                         <p>
                             Cars Showroom: a dynamic car showroom application
@@ -92,10 +97,14 @@
 
                 <div class="row my-3">
                     <h1 class="display-3 my-3">Books Manager</h1>
-                    <div class="col-lg-6 scroll-container pt-3">
-                        <img height="400px" src="../assests/projects doc/Books Manager/1.png">
-                        <img height="400px" src="../assests/projects doc/Books Manager/2.png">
-                        <img height="400px" src="../assests/projects doc/Books Manager/3.png">
+                    <div class="col-lg-6 pt-3 position-relative">
+                        <div class="scroll-container" id="scroll-container-2">
+                            <img id="img-1" height="400px" src="../assests/projects doc/Books Manager/1.png">
+                            <img id="img-2" height="400px" src="../assests/projects doc/Books Manager/2.png">
+                            <img id="img-3" height="400px" src="../assests/projects doc/Books Manager/3.png">
+                        </div>
+                        <a class="prev" onclick="scrollHorizontally(-200,'scroll-container-2')">&#10094;</a>
+                        <a class="next" onclick="scrollHorizontally(200,'scroll-container-2')">&#10095;</a>
                     </div>
                     <div class="col-lg-6 text-start px-4 pt-3">
                         <p>
@@ -133,12 +142,17 @@
 
                 <div class="row my-3">
                     <h1 class="display-3 my-3">Automated Water Level Monitoring system</h1>
-                    <div class="col-lg-6 scroll-container pt-3">
-                        <img height="400px" src="../assests/projects doc/College/1.jpg">
-                        <img height="400px" src="../assests/projects doc/College/2.jpg">
-                        <img height="400px" src="../assests/projects doc/College/Blynk.png">
-                        <img height="400px" src="../assests/projects doc/College/Circuit.png">
+                    <div class="col-lg-6 pt-3 position-relative">
+                        <div class="scroll-container" id="scroll-container-3">
+                            <img id="img-1" height="400px" src="../assests/projects doc/College/1.jpg">
+                            <img id="img-2" height="400px" src="../assests/projects doc/College/2.jpg">
+                            <img id="img-3" height="400px" src="../assests/projects doc/College/Blynk.png">
+                            <img id="img-4" height="400px" src="../assests/projects doc/College/Circuit.png">
+                        </div>
+                        <a class="prev" onclick="scrollHorizontally(-200,'scroll-container-3')">&#10094;</a>
+                        <a class="next" onclick="scrollHorizontally(200,'scroll-container-3')">&#10095;</a>
                     </div>
+
                     <div class="col-lg-6 text-start px-4 pt-3">
                         <p>I'm excited to showcase one of my innovative projects: an Automated Water Level Monitoring
                             System. This project utilizes an Ultrasonic sensor, Relay modules, Submersible pumps, and an
@@ -179,8 +193,12 @@
 
                 <!-- <div class="row my-3">
                     <h1 class="display-3 my-3"></h1>
-                    <div class="col-lg-6 scroll-container pt-3">
+                    <div class="col-lg-6 pt-3 position-relative">
+                        <div class="scroll-container" id="scroll-container-1">
 
+                        </div>
+                        <a class="prev" onclick="scrollHorizontally(-200,'scroll-container-1')">&#10094;</a>
+                        <a class="next" onclick="scrollHorizontally(200,'scroll-container-1')">&#10095;</a>
                     </div>
                     <div class="col-lg-6 text-start px-4 pt-3">
                         <p>
@@ -219,7 +237,9 @@
             </div>
         </div>
     </footer>
+
     <script src="../../bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="../../index.js"></script>
 </body>
 
 </html>

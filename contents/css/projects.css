@@ -1,8 +1,14 @@
+.col-lg-6 {
+    position: relative;
+    /* Ensure parent container is positioned relative */
+}
+
 div.scroll-container {
     border: 2px solid black;
     border-radius: 10px;
     background-color: #333;
-    overflow: auto;
+    overflow-x: auto;
+    /* Allow horizontal scrolling */
     white-space: nowrap;
     padding: 10px;
 }
@@ -24,6 +30,46 @@ div.scroll-container {
 
 div.scroll-container img {
     padding: 10px;
+    display: inline-block;
+    /* Ensure images are inline for horizontal scrolling */
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    /* Position absolutely within the parent container */
+    top: 50%;
+    transform: translateY(-50%);
+    /* Center vertically */
+    width: auto;
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    background-color: #3b3b3b;
+    user-select: none;
+    text-decoration: none;
+    z-index: 1000;
+    /* Ensure they stay on top of the content */
+}
+
+.prev {
+    left: 15px;
+    /* Fixed to the left side */
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 15px;
+    /* Fixed to the right side */
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 
