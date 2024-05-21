@@ -7,7 +7,7 @@
 
 .name-title {
     color: black;
-    font-family: cursive;
+    font-family: "Poetsen One", sans-serif;
     font-size: 4.5rem;
     font-weight: 900;
 }
@@ -53,10 +53,11 @@ button:hover::before {
     border-radius: 40%;
     margin-right: 10px;
     margin-bottom: 5px;
+    filter: invert(75%);
 }
 
 .nav-link:hover {
-    color: aliceblue;
+    color: rgb(249, 249, 249);
 }
 
 .icon:hover {
@@ -67,6 +68,7 @@ button:hover::before {
     color: #111;
     background: rgb(255, 255, 255);
     box-shadow: 0 0 100px rgb(255, 255, 255);
+    filter: invert(95%);
 }
 
 .main-content {
